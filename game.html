@@ -5,26 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Lakers Quiz - Play</title>
-    <link rel="stylesheet" href="/Assets/style.css"/>
+    <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="game.css"/>
   </head>
   <body>
     <div class="container">
       <div id="game" class="justify-center flex-column">
-        <div id="Display">
-          <div id="Display-item">
-            <p id="progressText" class="Display-prefix">
+        <div id="display">
+          <div id="display-item">
+            <p class="display-prefix">
               Question
             </p>
-            <div id="progressBar">
+            <h1 id="progressText" class="display-main-text">
               <div id="progressBarFull"></div>
-            </div>
+            </h1>
           </div>
-          <div id="Display-item">
-            <p class="Display-prefix">
+          <div id="display-item"> 
+            <p class="display-prefix">
               Score
             </p>
-            <h1 class="Display-main-text" id="score">
+            <h1 class="display-main-text" id="score">
               0
             </h1>
           </div>
@@ -48,6 +48,6 @@
         </div>
       </div>
     </div>
-    <script src="/Assets/game.js"></script>
+    <script src="game.js"></script>
   </body>
 </html>
